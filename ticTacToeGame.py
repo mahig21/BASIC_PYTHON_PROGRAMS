@@ -6,7 +6,7 @@ def abhinav_or_anjali(var):
     else:
         return "Anjali Wins"
 for i in range(3):
-    row=input().split()
+    row=input("Enter row "+str(i+1)+": ").split()
     matrix+=[row]
 
 #CHECK ROWS
