@@ -6,7 +6,7 @@ def convet_to_int(sets):
         int_set+=[int(i)]
     return int_set
 for i in range(n):
-    sets=input().split()
+    sets=input("Enter elements of set " + str(i+1) + ": ").split()
     sets=convet_to_int(sets)
     main_list.append(sets)
 
