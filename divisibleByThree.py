@@ -1,9 +1,9 @@
 string = input("Enter numbers separated by spaces: ")
 string_list = string.split()
 
-summ = 0
 int_list = []
 for i in string_list:
     i = int(i)
-    summ += i
-print(summ)
+    if (i % 3) == 0:
+        int_list += [i]
+print(int_list)
