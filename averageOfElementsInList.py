@@ -1,6 +1,8 @@
 str=input("Enter String: ")
 L=str.split()
 large=L[0]
+n=len(L)
+sum=0
 for i in L:
     num=int(i)
     sum=sum+num
